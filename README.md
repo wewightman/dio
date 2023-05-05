@@ -9,10 +9,10 @@ pip install .
 ```
 
 ## Testing
-This repository currently does not have unit testing. See ![Examples](https://github.com/wewightman/dio#examples) for more use cases.
+This repository currently does not have unit testing. See [Examples](https://github.com/wewightman/dio#examples) for more use cases.
 
 ## Examples
-Example scripts and files can be found ![here](https://github.com/wewightman/dio/tree/main/examples).
+Example scripts and files can be found [here](https://github.com/wewightman/dio/tree/main/examples).
 Currently not implemented
 
 ## Contributors
