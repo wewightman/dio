@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dio"
+authors = [
+    {name = "Wren Wightman", email = "wren.wightman@duke.edu"},
+]
+description = "Data Input & Output for binary, matlab-type metadata, and general metadata files"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["dio"]
