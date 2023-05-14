@@ -1,15 +1,24 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dio"
+name = "pyusel"
+version = "0.0.0"
 authors = [
-    {name = "Wren Wightman", email = "wren.wightman@duke.edu"},
+  { name="Wren Wightman", email="wren.wightman@duke.edu" },
 ]
-description = "Data Input & Output for binary, matlab-type metadata, and general metadata files"
+description = "Ultrasound Elasticity Imaging Toolkit"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyusel-dispest"
+]
 
-[tool.setuptools]
-packages = ["dio"]
+[project.urls]
+"Homepage" = "https://github.com/wewightman/pyusel"
